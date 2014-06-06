@@ -6287,7 +6287,7 @@ nv.models.linePlusBarChart = function() {
     noData = _;
     return chart;
   };
-
+ 
   //============================================================
 
 
