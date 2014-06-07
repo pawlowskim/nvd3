@@ -6331,7 +6331,7 @@ nv.models.lineWithFocusChart = function() {
     , noData = "No Data Available."
     , dispatch = d3.dispatch('tooltipShow', 'tooltipHide', 'brush')
     , transitionDuration = 250
-    , useInteractiveGuideline = false
+    , useInteractiveGuideline = true
     , valueFormatter = function(d,i) {
         return yAxis.tickFormat()(d) +" kg";
       }
