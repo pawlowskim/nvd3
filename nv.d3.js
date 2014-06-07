@@ -6337,11 +6337,6 @@ nv.models.lineWithFocusChart = function() {
       }
     ;
 
-  var max = (new Date()).getTime();
-  var min = max - 60*60*24*30*1000;
-
-  brushExtent = [min, max];
-
   lines
     .clipEdge(true)
     ;
