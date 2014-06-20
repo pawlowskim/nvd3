@@ -6333,7 +6333,7 @@ nv.models.lineWithFocusChart = function() {
     , transitionDuration = 250
     , useInteractiveGuideline = true
     , valueFormatter = function(d,i) {
-        return yAxis.tickFormat()(d) +" kg";
+        return yAxis.tickFormat()(d);
       }
     ;
 
@@ -14447,4 +14447,5 @@ nv.models.stackedAreaChart = function() {
   return chart;
 }
 })();
+
 
